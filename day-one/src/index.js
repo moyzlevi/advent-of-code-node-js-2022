@@ -8,7 +8,6 @@ const file = await open('./input/day-one-input.txt').catch((err) => {
   }
 });
 
-// const currentElfCals = []
 let mostCalories = 0;
 let currentElfCals = 0;
 for await (const line of file.readLines()) {
