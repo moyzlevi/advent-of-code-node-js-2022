@@ -23,4 +23,4 @@ for await (const line of file.readLines()) {
 
 await file?.close();
 
-writeFile('output/output.txt', mostCalories.toString());
+await writeFile('output/output.txt', mostCalories.toString());
